@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Reuben Site', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Reuben',
+  subtitle: 'a software engineer in Newcastle upon Tyne',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'ilya-pavlov-OqtafYT5kTw-unsplash.jpg',
+  paragraphOne: 'I am a software engineer in Newcastle upon Tyne.',
+  paragraphTwo: 'I have experience in software design & architecture and have worked in various industries',
+  paragraphThree: 'My interests are cloud computing and Security',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,25 +34,7 @@ export const projectsData = [
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  }
 ];
 
 // CONTACT DATA
@@ -68,7 +50,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'twitter',
-      url: '',
+      url: 'https://twitter.com/rubot99',
     },
     {
       id: nanoid(),
@@ -83,7 +65,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/rubot99',
     },
   ],
 };
