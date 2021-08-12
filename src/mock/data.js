@@ -52,7 +52,7 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/rubot99',
     },
-    {
+    /**{
       id: nanoid(),
       name: 'codepen',
       url: '',
@@ -61,7 +61,7 @@ export const footerData = {
       id: nanoid(),
       name: 'linkedin',
       url: '',
-    },
+    }, */
     {
       id: nanoid(),
       name: 'github',
