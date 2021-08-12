@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'ilya-pavlov-OqtafYT5kTw-unsplash.jpg',
   paragraphOne: 'I am a software engineer in Newcastle upon Tyne.',
-  paragraphTwo: 'I have experience in software design & architecture and have worked in various industries',
-  paragraphThree: 'My interests are cloud computing and Security',
+  paragraphTwo: 'I have experience in software design, development & architecture and I have worked in various industries',
+  paragraphThree: 'My interests are cloud computing, computing science theory and security',
   resume: '', // if no resume, the button will not show up
 };
 
