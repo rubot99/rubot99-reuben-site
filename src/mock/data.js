@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Reuben Site', // e.g: 'Name | Developer'
+  title: 'Rubot', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'ilya-pavlov-OqtafYT5kTw-unsplash.jpg',
-  paragraphOne: 'I am a software engineer in Newcastle upon Tyne.',
-  paragraphTwo: 'I have experience in software design, development & architecture and I have worked in various industries',
-  paragraphThree: 'My interests are cloud computing, computing science theory and security',
+  paragraphOne: 'I am a software engineer working on Microsoft technologies.',
+  paragraphTwo: 'I have experience in software design & architecture and I have developed software for various industries.',
+  paragraphThree: 'My interests are cloud computing, distributed computing and information security. In my spare time I like to work with raspberry pi and Linux.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -41,7 +41,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'rubot99@gmail.com',
 };
 
 // FOOTER DATA
@@ -72,5 +72,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
