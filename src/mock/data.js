@@ -11,16 +11,16 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Reuben',
-  subtitle: 'a software engineer in Newcastle upon Tyne',
+  subtitle: 'a software engineer living in Newcastle upon Tyne',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'ilya-pavlov-OqtafYT5kTw-unsplash.jpg',
-  paragraphOne: 'I am a software engineer working on Microsoft technologies.',
-  paragraphTwo: 'I have experience in software design & architecture and I have developed software for various industries.',
-  paragraphThree: 'My interests are cloud computing, distributed computing and information security. In my spare time I like to work with raspberry pi and Linux.',
+  paragraphOne: 'I am a full-stack software engineer working on Microsoft technologies. I have developed and designed software for various industries like manufacturing, financial and oil & gas. I have built applications for public and hybrid cloud architecture.',
+  paragraphTwo: 'Having many years of experience I understand the importance of code quality, clean architecture and continuous delivery. I have worked on both AWS and Azure cloud architecture. I am keen on working with development teams to build secure, maintainable and extendable systems which enhance business processes.',
+  paragraphThree: 'My interests are building and architecting distributed cloud systems and ensuring information security through identity & Access Management. In my spare time I like learn new software technologies such as programming languages, design patterns etc. I also like to tinker with my raspberry pi and home lab 💻🤓',
   resume: '', // if no resume, the button will not show up
 };
 
